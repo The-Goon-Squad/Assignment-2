@@ -91,7 +91,9 @@ public class UI extends JFrame {
 	    
 	    JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 	    mainPane.add(tabbedPane, "name_63785020111509");
-	    
+	    /**
+	    * Create the log in screen.
+	    */
 	    JPanel panel_2 = new JPanel();
 	    panel_2.setBackground(new Color(176, 196, 222));
 	    tabbedPane.addTab("Log in", null, panel_2, null);
@@ -140,7 +142,9 @@ public class UI extends JFrame {
 	    JButton btnNewButton_1 = new JButton("Sign in");
 	    btnNewButton_1.setBounds(255, 350, 106, 23);
 	    panel_2.add(btnNewButton_1);
-	    
+	    /**
+	    * Create the data screen.
+	    */
 	    JPanel Data = new JPanel();
 	    Data.setBackground(new Color(176, 196, 222));
 	    tabbedPane.addTab("Data", null, Data, null);
@@ -150,7 +154,9 @@ public class UI extends JFrame {
 	    Data.add(textField);
 	    textField.setColumns(10);
 	    
-	    
+	    /**
+	    * Display the data graph.
+	    */
 	    JTextArea textArea = new JTextArea();
 	    textArea.setEditable(false);
 	    Data.add(textArea);
@@ -189,6 +195,9 @@ public class UI extends JFrame {
 	    JCheckBox chckbxNewCheckBox = new JCheckBox("Compare with Friends");
 	    Data.add(chckbxNewCheckBox);
 	    
+	    /**
+	    * Create the import data screen.
+	    */
 	    JPanel importPanel_1 = new JPanel();
 	    importPanel_1.setBackground(new Color(176, 196, 222));
 	    tabbedPane.addTab("Import Data", null, importPanel_1, null);
@@ -230,6 +239,9 @@ public class UI extends JFrame {
 	    importPanel_1.add(importConfirmation);
 	    importConfirmation.setColumns(10);
 	    
+	    /**
+	    * Create the edit data screen.
+	    */
 	    JPanel editDatapanel = new JPanel();
 	    editDatapanel.setBackground(new Color(176, 196, 222));
 	    tabbedPane.addTab("Edit Data", null, editDatapanel, null);
@@ -263,6 +275,9 @@ public class UI extends JFrame {
 	    btnRemove.setBounds(326, 329, 89, 22);
 	    editDatapanel.add(btnRemove);
 	    
+	    /**
+	    * Create the friends screen.
+	    */
 	    JPanel friendsPanel = new JPanel();
 	    friendsPanel.setBackground(new Color(176, 196, 222));
 	    tabbedPane.addTab("Friends", null, friendsPanel, null);
@@ -294,6 +309,9 @@ public class UI extends JFrame {
 	    btnNewButton.setBounds(325, 444, 122, 23);
 	    friendsPanel.add(btnNewButton);
 	    
+	    /**
+	    * Create the profile screen.
+	    */
 	    JPanel profilePanel = new JPanel();
 	    profilePanel.setBackground(SystemColor.activeCaption);
 	    tabbedPane.addTab("Profile", null, profilePanel, null);
